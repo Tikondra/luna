@@ -1,0 +1,26 @@
+.user-nav {
+  @include list;
+  display: flex;
+}
+
+.user-nav__link {
+  display: block;
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  color: #7C7C7C;
+  text-decoration: none;
+  border: 1px solid #7C7C7C;
+  border-radius: 22px;
+
+  &--enter {
+    padding: 8px 16px;
+    color: #1E71ED;
+    border: 1px solid #1E71ED;
+  }
+}
+
+.user-nav__item {
+  margin: 0 13px;
+}

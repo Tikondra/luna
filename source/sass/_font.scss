@@ -1,23 +1,39 @@
 @font-face {
-  font-family: "GothamPro";
+  font-family: "HelveticaNeue";
   font-display: swap;
-  src: url("../fonts/GothamPro.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GothamPro";
+  font-family: "HelveticaNeue";
   font-display: swap;
-  src: url("../fonts/GothamPro-Bold.woff") format("woff");
-  font-weight: 700;
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GothamPro";
+  font-family: "HelveticaNeue";
   font-display: swap;
-  src: url("../fonts/GothamPro-Black.woff") format("woff");
-  font-weight: 900;
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
 }

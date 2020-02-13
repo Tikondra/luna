@@ -1,0 +1,19 @@
+.navigation__list {
+  @include list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation__link {
+  font-weight: 300;
+  color: #5E5E5E;
+  text-decoration: none;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.navigation__item {
+  margin: 0 45px;
+}

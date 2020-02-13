@@ -1,0 +1,28 @@
+.header {
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.header__wrapper {
+  max-width: 1365px;
+  margin: auto;
+  padding: 13px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  margin: 0 30px 0 50px;
+  min-width: 87px;
+}
+
+.header__user-nav,
+.header__admin-nav {
+  margin-left: auto;
+}
+
+.header__admin-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}

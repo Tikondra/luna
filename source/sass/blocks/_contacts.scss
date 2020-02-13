@@ -1,0 +1,36 @@
+.contacts {
+  max-width: 510px;
+  margin: auto;
+  padding: 40px 20px 95px;
+  text-align: center;
+}
+
+.contacts__title {
+  margin-bottom: 63px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.contacts__list {
+  @include list;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__link {
+  display: block;
+  padding-top: 100px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  text-decoration: none;
+  background-image: url("../img/mail.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  &--tel {
+    background-image: url("../img/phone.png");
+  }
+}

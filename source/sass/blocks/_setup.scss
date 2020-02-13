@@ -1,0 +1,60 @@
+.setup {
+  max-width: 1365px;
+  padding: 77px 20px;
+  margin: auto;
+}
+
+.setup__title {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  span {
+    font-weight: 300;
+  }
+}
+
+.setup__list {
+  @include list;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 740px;
+  margin: 65px auto;
+}
+
+.setup__text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+
+  &--large {
+    font-size: 64px;
+    line-height: 77px;
+  }
+}
+
+.setup__store {
+  @include list;
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  margin: auto;
+}
+
+.setup__store-link {
+  display: block;
+  width: 129px;
+  height: 46px;
+  background-image: url("../img/googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &--apple {
+    background-image: url("../img/appstore.png");
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Luna</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <img class="header__logo" src="img/logo.jpg" width="87" height="46" alt="luna">
+        </picture>
+      </a>
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html">главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="admin.html">для бизнеса</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">контакты</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">о нас</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__user-nav user-nav">
+        <li class="user-nav__item">
+          <a class="user-nav__link" href="">оставить заявку</a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__link user-nav__link--enter" href="">вход для бизнеса</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <form class="login">
+      <h2 class="login__title">войти в кабинет</h2>
+      <input class="login__input" type="text" name="" placeholder="логин">
+      <input class="login__input" type="password" name="" placeholder="пароль">
+      <button class="login__btn login__btn--submit" type="submit">войти</button>
+      <a class="login__btn login__btn--callback" href="">оставить заявку на подключение</a>
+    </form>
+  </main>
+  <footer class="footer">
+    <p>© Nexen Origin, LLC 2020</p>
+  </footer>
+</body>
+</html>
