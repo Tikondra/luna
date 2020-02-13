@@ -29,98 +29,150 @@
       </ul>
     </div>
   </header>
-  <main>
-    <nav>
-      <ul>
-        <li><a href="">заказы и записи</a></li>
-        <li><a href="">товары и услуги</a></li>
-        <li><a href="">фотогалерея</a></li>
-        <li><a href="">акции</a></li>
-        <li><a href="">новости и анонсы</a></li>
-        <li><a href="">специалисты</a></li>
+  <main class="admin">
+    <nav class="admin__navigation navigation-admin">
+      <ul class="navigation-admin__list">
+        <li class="navigation-admin__item navigation-admin__item--active">
+          <a class="navigation-admin__link
+                    navigation-admin__link--post" href="">заказы и записи</a>
+        </li>
+        <li class="navigation-admin__item">
+          <a class="navigation-admin__link
+                    navigation-admin__link--product" href="">товары и услуги</a>
+        </li>
+        <li class="navigation-admin__item">
+          <a class="navigation-admin__link navigation-admin__link--gallery" href="">фотогалерея</a>
+        </li>
+        <li class="navigation-admin__item">
+          <a class="navigation-admin__link navigation-admin__link--stock" href="">акции</a>
+        </li>
+        <li class="navigation-admin__item">
+          <a class="navigation-admin__link navigation-admin__link--news" href="">новости и анонсы</a>
+        </li>
+        <li class="navigation-admin__item">
+          <a class="navigation-admin__link navigation-admin__link--spec" href="">специалисты</a>
+        </li>
       </ul>
     </nav>
-    <section>
-      <div>
-        <div>
-          <h2>заказы</h2>
-          <p>00:05</p>
-          <form>
-            <input type="search" name="search">
+    <section class="admin__frame">
+      <div class="orders">
+        <div class="orders__tools">
+          <h2 class="orders__title">заказы</h2>
+          <button class="orders__time" type="button">00:05</button>
+          <form class="orders__form">
+            <input class="orders__search" type="search" name="search" placeholder="поиск">
           </form>
-          <button type="button">добавить</button>
+          <button class="orders__ad" type="button">добавить</button>
         </div>
-        <table>
-          <thead>
-            <th>№</th>
-            <th>время</th>
-            <th>статус</th>
-            <th>имя</th>
-            <th>телефон</th>
-            <th>адрес</th>
-          </thead>
-          <tr>
-            <td>24</td>
-            <td>10:44,22.02</td>
-            <td>новый</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>10:44,22.02</td>
-            <td>новый</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>10:44,22.02</td>
-            <td>готовится</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>10:44,22.02</td>
-            <td>закрыт</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>10:44,22.02</td>
-            <td>новый</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>10:44,22.02</td>
-            <td>новый</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>10:44,22.02</td>
-            <td>новый</td>
-            <td>Алихан</td>
-            <td>+79640273064</td>
-            <td>Кирова 22к5, 2,1</td>
-          </tr>
-        </table>
-        <div>
-          <p>показывать на странице</p>
+        <div class="orders__box">
+          <table class="orders__table">
+            <thead>
+              <th class="orders__th">№</th>
+              <th class="orders__th">время</th>
+              <th class="orders__th">статус</th>
+              <th class="orders__th">имя</th>
+              <th class="orders__th">телефон</th>
+              <th class="orders__th">адрес</th>
+            </thead>
+            <tr>
+              <td>24</td>
+              <td>10:44,22.02</td>
+              <td>новый</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>10:44,22.02</td>
+              <td>новый</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>10:44,22.02</td>
+              <td>готовится</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>10:44,22.02</td>
+              <td>закрыт</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>10:44,22.02</td>
+              <td>новый</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>10:44,22.02</td>
+              <td>новый</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>10:44,22.02</td>
+              <td>новый</td>
+              <td>Алихан</td>
+              <td>+79640273064</td>
+              <td>Кирова 22к5, 2,1</td>
+            </tr>
+          </table>
+          <div class="orders__pag">
+            <p class="orders__pag-text">показывать на странице</p>
+            <form>
+              <input class="orders__pag-count" type="num" name="count" value="50">
+              <button class="order__view" type="submit">показать</button>
+            </form>
+            <div class="orders__pagination">
+              <a class="orders__pagination-link
+                        orders__pagination-link--active" href="">1</a>
+              <a class="orders__pagination-link" href="">2</a>
+              <a class="orders__pagination-link" href="">3</a>
+              <a class="orders__pagination-link" href="">4</a>
+              <a class="orders__pagination-link" href="">...</a>
+              <a class="orders__pagination-link" href="">10</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div></div>
+      <div class="order">
+        <div class="order__info-box">
+          <h3 class="order__title">заказ №24, 10:44</h3>
+          <p class="order__label">имя</p>
+          <p class="order__info">Алихан</p>
+          <p class="order__label">телефон</p>
+          <p class="order__info">+79640273064</p>
+          <p class="order__label">адрес</p>
+          <p class="order__info">ул. Пушкина д45к65, 2, 2, 1</p>
+          <p class="order__label">комментарий</p>
+          <p class="order__info">текст длинного комментария к заказу, тут много всего написано короче</p>
+          <ul class="order__list">
+            <li class="order__info">- позиция 1 х4, 200 руб.</li>
+            <li class="order__info">- позиция 2 х1, 234 руб.</li>
+            <li class="order__info">- позиция 5 х2, 700 руб.</li>
+          </ul>
+          <p class="order__info order__info--sum">итого: 1234 руб.</p>
+        </div>
+        <div class="order__btns">
+          <button class="order__btn order__btn--accept" type="button">принять</button>
+          <button class="order__btn order__btn--cancel" type="button">отменить</button>
+          <button class="order__btn order__btn--act" type="button">действие</button>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer">
