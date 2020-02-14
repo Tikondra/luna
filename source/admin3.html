@@ -156,28 +156,35 @@
           </div>
         </div>
       </div>
-      <div class="order">
-        <div class="order__info-box">
-          <h3 class="order__title">заказ №24, 10:44</h3>
-          <p class="order__label">имя</p>
-          <p class="order__info">Алихан</p>
-          <p class="order__label">телефон</p>
-          <p class="order__info">+79640273064</p>
-          <p class="order__label">адрес</p>
-          <p class="order__info">ул. Пушкина д45к65, 2, 2, 1</p>
-          <p class="order__label">комментарий</p>
-          <p class="order__info">текст длинного комментария к заказу, тут много всего написано короче</p>
-          <ul class="order__list">
-            <li class="order__info">- позиция 1 х4, 200 руб.</li>
-            <li class="order__info">- позиция 2 х1, 234 руб.</li>
-            <li class="order__info">- позиция 5 х2, 700 руб.</li>
-          </ul>
-          <p class="order__info order__info--sum">итого: 1234 руб.</p>
-        </div>
-        <div class="order__btns">
-          <button class="order__btn order__btn--accept" type="button">принять</button>
-          <button class="order__btn order__btn--cancel" type="button">отменить</button>
-          <button class="order__btn order__btn--act" type="button">действие</button>
+      <div class="order new-order">
+        <form class="new-order__form">
+          <h3 class="new-order__title">новый заказ</h3>
+          <input class="new-order__input" type="text" name="name" placeholder="имя">
+          <input class="new-order__input" type="tel" name="tel" placeholder="телефон">
+          <select class="new-order__input">
+            <option>город</option>
+            <option></option>
+          </select>
+          <select class="new-order__input">
+            <option>улица</option>
+            <option></option>
+          </select>
+          <input class="new-order__input" type="text" name="address" placeholder="дома, корпус, квартира">
+          <p>заказ</p>
+          <select class="new-order__input new-order__input--add">
+            <option>выберите товар</option>
+            <option>вариант 1</option>
+            <option>вариант 2</option>
+            <option>вариант 3</option>
+          </select>
+          <input class="new-order__input new-order__input--count" type="number" name="count" placeholder="кол-во">
+          <button class="new-order__plus" type="button">+</button>
+        </form>
+
+
+        <div class="new-order__btns">
+          <button class="new-order__btn" type="button">создать</button>
+          <p>итого: <span>0</span> руб</p>
         </div>
       </div>
     </section>

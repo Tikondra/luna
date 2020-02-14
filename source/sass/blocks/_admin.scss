@@ -7,8 +7,10 @@
   padding: 40px 8px;
 }
 
-.admin__navigation {
+.admin__sidebar {
   margin-right: 16px;
+  flex-grow: 1;
+  max-width: 234px;
 }
 
 .admin__frame {
@@ -18,4 +20,20 @@
   border: 1px solid #DADADA;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.admin__message {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: rgba(228, 164, 0, 0.38);
+  border-radius: 10px;
+}
+
+.admin__message-text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #995C00;
 }
