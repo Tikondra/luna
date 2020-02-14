@@ -5,6 +5,8 @@
 
 .new-order__form {
   padding: 15px;
+  max-height: 650px;
+  overflow-y: scroll;
 }
 
 .new-order__title {

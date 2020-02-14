@@ -5,6 +5,8 @@
 
 .order__info-box {
   padding: 15px;
+  max-height: 650px;
+  overflow-y: scroll;
 }
 
 .order__title {
