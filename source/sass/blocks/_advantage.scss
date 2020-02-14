@@ -37,18 +37,18 @@
   padding-top: 150px;
   width: 33%;
   max-width: 290px;
-  background-image: url("../img/adv1.svg");
+  background-image: url("../img/adv1.png");
   background-repeat: no-repeat;
   background-position: top 15px center;
   text-align: center;
 
   &:nth-child(2) {
-    background-image: url("../img/adv2.svg");
+    background-image: url("../img/adv2.png");
     background-position: top center;
   }
 
   &:nth-child(3) {
-    background-image: url("../img/adv3.svg");
+    background-image: url("../img/adv3.png");
     background-position: top 15px center;
   }
 }
