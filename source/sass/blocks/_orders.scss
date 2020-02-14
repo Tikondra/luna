@@ -62,11 +62,12 @@
 .orders__box {
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 585px;
   padding-top: 16px;
   background: #FFFFFF;
   border: 0.5px solid #D2D2D2;
   border-radius: 5px;
+  overflow-y: scroll;
 }
 
 .orders__table {
@@ -105,7 +106,6 @@
   align-items: center;
   padding: 10px;
   margin-top: auto;
-  border-top: 1px solid #D7D7D7;
 }
 
 .orders__pag-text {
